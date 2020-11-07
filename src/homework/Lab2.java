@@ -32,7 +32,6 @@ public class Lab2 {
         System.out.printf("Average Y = %.3f%n", averageY);
     }
 
-    // This is a new comment
     public double calculateY(double x) {
         double y;
         double a = 2.4;
