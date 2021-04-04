@@ -3,10 +3,10 @@ package homework;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
+
 import static java.lang.Math.*;
 
 public class Lab1 {
@@ -31,11 +31,7 @@ public class Lab1 {
         Date now = new Date();
         System.out.println(formatter.format(now));
     }
-
-    /*private static void printDateInOldFormat() {
-        System.out.printf("%1$td %1$tB %1$tY", new Date());
-    }*/
-
+    
     private static void calculate() {
         System.out.print("Пожалуйста, введите цифру a: ");
         float a = readNumber();
